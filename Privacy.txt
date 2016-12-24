@@ -1,0 +1,18 @@
+Application Privacy Statement 
+
+This privacy statement applies to the treatment of personally identifiable information submitted by, or otherwise obtained from, you in connection with the associated application "Video Assist" provided by Robert Van Gemert. By using or otherwise accessing the Application, you acknowledge that you accept the practices and policies outlined in this Privacy Statement. 
+
+(A) WHAT PERSONAL INFORMATION DOES Robert Van Gemert COLLECT? 
+
+none
+
+(B) HANDLING OF SENSITIVE DATA
+
+Video Assist will request permissions to use data from camera sensor and microphone. This data is handled as personal and sensitive information and our apps will not send camera/microphone data from your device unless you explicitly share a photo or video using the sharing functions of the app.
+
+(C) QUESTIONS OR CONCERNS. 
+
+If you have any questions or concerns regarding privacy, please send us a detailed message at videoassist7@gmail.com. We will make every effort to resolve your concerns. 
+
+Effective Date: December 23, 2016
+
