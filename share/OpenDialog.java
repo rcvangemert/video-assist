@@ -65,6 +65,8 @@ public class OpenDialog {
         TextView titleView = layout.findViewById(R.id.text1);
         ListView listView = layout.findViewById(R.id.files_list);
         ImageButton menuButton = layout.findViewById(R.id.menu_button);
+        TextView emptyView = layout.findViewById(R.id.empty_text);
+        listView.setEmptyView(emptyView);
 
         backButton.setOnClickListener(v -> {
             listView.clearChoices(); // Purge choice index states safely before closing
@@ -167,6 +169,8 @@ public class OpenDialog {
             }
             return true;
         });
+
+
 
         dialog.show();
     }
@@ -297,12 +301,10 @@ public class OpenDialog {
 
     private void updateFiles(ListView listView) {
         listView.clearChoices();
-        //items.clear();
-        //items.addAll(getFiles());
-
-        items = getFiles();
-
-        //listAdapter.notifyDataSetChanged();
+        listView.post(() -> {
+            items = getFiles();
+            listAdapter.updateItems(items);
+        });
 
         listAdapter.updateItems(items);
     }
